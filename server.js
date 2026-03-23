@@ -2,7 +2,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import { connectDB } from './db/index.js'
 import authRouter from './routes/auth.js'
-import postRouter from './routes/post.js'
+// import postRouter from './routes/posts.js'
 
 dotenv.config()
 
